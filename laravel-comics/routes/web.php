@@ -18,5 +18,6 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/fumetti', function () {
-
+    $fumetti = config('comics');
+    return view('fumetti', ['testi' => $fumetti]);
 })->name('fumetti');
