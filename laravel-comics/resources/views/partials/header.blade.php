@@ -1,5 +1,5 @@
 <header>
-        <img src="../assets/img/dc-logo.png" alt="dc-logo">
+        <img src="{{asset('img/dc-logo.png')}}" alt="dc-logo">
         <nav>
             <ul>
                 <li>
