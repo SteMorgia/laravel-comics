@@ -1,0 +1,10 @@
+.contents {
+    background-color: black;
+    padding: 30px;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

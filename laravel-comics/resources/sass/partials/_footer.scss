@@ -1,0 +1,50 @@
+@import "./vars.scss";
+
+.upper-footer {
+        
+    background-image: url(../assets/img/footer-bg.jpg);
+    
+    .container {
+        display:flex;
+        justify-content: space-around;
+        width:100%;
+        .container-left {
+            display:flex;
+            margin-top:15px;
+        }
+        
+    }
+    .footer-links {
+        margin:10px 20px;
+        ul {
+            list-style: none;
+            a {
+                color:grey;
+                text-decoration: none;
+            }
+        }
+        h4 {
+            color:white;
+        }
+    }
+    .footer-logo img {
+        width:300px;
+        
+    }
+}
+.lower-footer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2B2B2B;
+    padding:20px;
+    button {
+        padding:5px;
+        background-color:#2B2B2B;
+        border-color:$brand_color;
+        color:white;
+    }
+    .text {
+        color:$brand_color;
+    }
+}
